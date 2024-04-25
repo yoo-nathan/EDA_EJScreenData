@@ -1,0 +1,36 @@
+---
+title: "Exploratory Data Analysis of Environmental Justice Screening (EJScreen) Data"
+author: "Nathan Yoo & Ayesha Saeed"
+date: "2024-03-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+library(tidyverse)
+library(knitr)
+
+EJScreenData <- read.csv("/Users/natha/Downloads/QTM302w/data/env-data.csv")
+elections <- read.csv("/Users/natha/Downloads/QTM302w/data/election-context-2018.csv")
+#EJScreenData <- read.csv("/Users/ayeshasaeed/Documents/EJSCREEN_2023_BG_with_AS_CNMI_GU_VI.csv")
+```
+
+***
+## Introduction:
+  The Environmental Protection Agency created an Environmental Justice Screening and Mapping Tool called EJScreen that tracks both demographic and environmental factors that impact environmental health. Having socioeconomic information linked with environmental indexes allows researchers to draw connections between the two to determine how there is inequity in environmental health. The dataset we chose tracks these factors on a national level, including education level, traffic proximity, ozone, unemployment rate, and low-income. We can use the EJScreen data to find correlation between these variables to identify potential risks in environmental health for underprivileged demographics.
+
+  EJScreen utilizes two types of indices: Demographic Index and a Supplemental Demographic Index. The Demographic Index is calculated by averaging the percentage of low income population and the percentage that are people of color within the region. The Supplemental Demographic Index averages five socioeconomic indicators: percentage of low life expectancy, percentage of low income, percentage of unemployment rate, percentage of limited English speaking, and percentage of less than high school education. These indicators are then used to capture the effect of these socioeconomic factors on environmental indicators by doing: Socioeconomic Index (Demographic or Supplemental Demographic Index) * Normalized Environmental Indicator. Those that are weighted by the Demographic Index is prefixed with a "D2", and those that are weighted by the Supplemental Demographic Index is prefixed with a "D5." 
+  `select()`
+
+***
+
+# Data Cleaning & Filtering
+First, we will filter out columns in the EJScreen data that is prefixed with "B_" and "T_" because it is mainly used for plotting purposes for the EJScreen website. 
+
+```{r}
+EJScreenData <- EJScreenData %>%
+  select(-contains(c("B_","T_")))
+```
+
+
