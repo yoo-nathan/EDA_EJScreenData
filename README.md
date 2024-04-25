@@ -43,6 +43,20 @@ Our motivation behind choosing this dataset is to see if socioeconomic factors s
 
 *If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  )
 
+### Repo Structure 
+.
+└── EDA_EJScreenData/
+    ├── README.md
+    ├── EDA_final.Rmd
+    ├── EDA_final.html
+    ├── renv.lock
+    ├── data/
+    │   └── env-data.csv
+    └── renv/
+        ├── activate.R
+        └── settings.json
+
+
 ## Featured Notebooks/Analysis/Deliverables
 * [Notebook/Markdown/Slide Deck Title](link)
 * [Notebook/Markdown/Slide DeckTitle](link)
@@ -53,3 +67,6 @@ Our motivation behind choosing this dataset is to see if socioeconomic factors s
 |[Ayesha Saeed](https://github.com/[ayeshasaeed97])| 
 |[Nathan Yoo](https://github.com/[yoo-nathan])|
 
+## Contact 
+ayesha.saeed@emory.edu
+nathan.yoo@emory.edu 
