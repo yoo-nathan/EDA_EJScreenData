@@ -38,10 +38,10 @@ Our motivation behind choosing this dataset is to see if socioeconomic factors s
 
 ## Getting Started
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Manage project dependencies by running `renv::restore()` 
-3. Data processing/transformation and analysis is conducted in the `EDA_final.Rmd`.
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  )
+2. Manage project dependencies by running `renv::restore()`.
+3. Download the data from [this Google Drive link](https://drive.google.com/file/d/1d_70M8TcARCHt6jaqivX84Wr3TUiWSac/view?usp=sharing)
+4. Unzip/uncompress the data and move it to the EDA_EJScreenData directory
+5. Data processing/transformation and analysis is conducted in the `EDA_final.Rmd`.
 
 ### Repo Structure 
 EDA_EJScreenData
@@ -50,15 +50,15 @@ EDA_EJScreenData
     
     ├── EDA_final.Rmd
     
-    ├── EDA_final.html
+    ├── EDA_final.html # html version of the Rmd file
     
-    ├── renv.lock
+    ├── renv.lock #this contains meta data of dependencies used for this project
     
-    ├── data/
+    ├── data/ # download this using the GoogleDrive link above
     
         └── env-data.csv
     
-    └── renv/
+    └── renv/ # used for the renv package
     
         ├── activate.R
         
