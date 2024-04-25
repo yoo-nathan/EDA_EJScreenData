@@ -46,14 +46,23 @@ Our motivation behind choosing this dataset is to see if socioeconomic factors s
 ### Repo Structure 
 .
 └── EDA_EJScreenData/
+
     ├── README.md
+    
     ├── EDA_final.Rmd
+    
     ├── EDA_final.html
+    
     ├── renv.lock
+    
     ├── data/
+    
     │   └── env-data.csv
+    
     └── renv/
+    
         ├── activate.R
+        
         └── settings.json
 
 
