@@ -54,8 +54,7 @@ Our motivation behind choosing this dataset is to see if socioeconomic factors s
 
 ## Contributing Members
 
-|Name     |  Slack Handle   | 
-|---------|-----------------|
+|Name     |
 |[Ayesha Saeed](https://github.com/[ayeshasaeed97])| 
 |[Nathan Yoo](https://github.com/[yoo-nathan])|
 
