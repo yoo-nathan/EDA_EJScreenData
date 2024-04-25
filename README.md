@@ -44,7 +44,7 @@ Our motivation behind choosing this dataset is to see if socioeconomic factors s
 *If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  )
 
 ### Repo Structure 
-EDA_EJScreenData/
+EDA_EJScreenData
 
     ├── README.md
     
@@ -56,7 +56,7 @@ EDA_EJScreenData/
     
     ├── data/
     
-    │   └── env-data.csv
+        └── env-data.csv
     
     └── renv/
     
