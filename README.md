@@ -3,7 +3,9 @@
 #### -- Project Status: [Completed]
 
 ## Project Intro/Objective
+The Environmental Protection Agency created an Environmental Justice Screening and Mapping Tool called EJScreen that tracks both demographic and environmental factors that impact environmental health. Having socioeconomic information linked with environmental indexes allows researchers to draw connections between the two to determine how there is inequity in environmental health. The dataset we chose tracks these factors on a national level, including education level, traffic proximity, ozone, unemployment rate, and low-income. We can use the EJScreen data to find correlation between these variables to identify potential risks in environmental health for underprivileged demographics.
 
+Our motivation behind choosing this dataset is to see if socioeconomic factors such as education level or unemployment rate have a correlation with environmental factors that pose a risk to an individual’s physical and mental well-being. Additionally, we can draw comparisons across geographic borders by filtering by states. For example, less densely populated states might have lower levels of environmental health disparities as compared to those in more densely populated states. Furthermore, we can isolate states and look at data in a specific state if we see something of interest during our initial analysis.
 
 
 ### Methods Used
@@ -14,16 +16,15 @@
 * R 
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+The Environmental Protection Agency created an Environmental Justice Screening and Mapping Tool called EJScreen that tracks both demographic and environmental factors that impact environmental health. Having socioeconomic information linked with environmental indexes allows researchers to draw connections between the two to determine how there is inequity in environmental health. The dataset we chose tracks these factors on a national level, including education level, traffic proximity, ozone, unemployment rate, and low-income. We can use the EJScreen data to find correlation between these variables to identify potential risks in environmental health for underprivileged demographics.
+
+Our motivation behind choosing this dataset is to see if socioeconomic factors such as education level or unemployment rate have a correlation with environmental factors that pose a risk to an individual’s physical and mental well-being. Additionally, we can draw comparisons across geographic borders by filtering by states. For example, less densely populated states might have lower levels of environmental health disparities as compared to those in more densely populated states. Furthermore, we can isolate states and look at data in a specific state if we see something of interest during our initial analysis.
 
 ## Needs of this project
-
-- frontend developers
 - data exploration/descriptive statistics
 - data processing/cleaning
 - statistical modeling
 - writeup/reporting
-- etc. (be as specific as possible)
 
 ## Getting Started
 
@@ -35,9 +36,7 @@
 3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
 4. etc...
 
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
+*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  )
 
 ## Featured Notebooks/Analysis/Deliverables
 * [Notebook/Markdown/Slide Deck Title](link)
@@ -45,18 +44,10 @@
 * [Blog Post](link)
 
 
-## Contributing DSWG Members
-
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)**
-
-#### Other Members:
+## Contributing Members
 
 |Name     |  Slack Handle   | 
 |---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
+|[Ayesha Saeed](https://github.com/[ayeshasaeed97])| 
+|[Nathan Yoo](https://github.com/[yoo-nathan])|
 
-## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
